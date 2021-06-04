@@ -1,3 +1,7 @@
+#[
+WIP, refs https://github.com/timotheecour/Nim/issues/703
+]#
+
 proc main(a = 0, b = "abc") =
   echo (a, b)
 
