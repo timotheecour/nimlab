@@ -12,3 +12,9 @@ namedBin = {"nimlab/nimdigger": "bin/nimdigger", "nimlab/nimdustmite": "bin/nimd
 
 requires "nim >= 1.5.1"
 requires "cligen >= 1.5.4"
+
+task docs, "":
+  # when (NimMajor, NimMinor) >= (1, 5):
+  #   exec "nim c -r -d:fusionDocJs src/fusion/docutils " & srcDir
+  # exec "nim r src/fusion/docutils " & srcDir
+  exec "nim r src/nimlab/private/docutils " & srcDir
