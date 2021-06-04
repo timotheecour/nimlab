@@ -108,7 +108,7 @@ jobs:
 
       - name: Run tests
         shell: bash
-        run: nimble test
+        run: nimble test -y
 
       - name: Build docs
         if: matrix.branch == 'devel'
