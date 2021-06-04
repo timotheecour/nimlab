@@ -1,3 +1,5 @@
+# adapted from https://github.com/nim-lang/fusion/pull/24
+
 import std/[os, sugar, strutils, osproc]
 import std/private/globs
 
